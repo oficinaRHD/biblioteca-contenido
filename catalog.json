@@ -1,32 +1,77 @@
 {
   "schemaVersion": 1,
-  "catalogVersion": 1,
+  "catalogVersion": 2,
   "updatedAt": "2026-11-03T11:00:00Z",
   "bases": {
     "files": "https://github.com/oficinaRHD/biblioteca-contenido/releases/download/test-v1/",
     "covers": "https://raw.githubusercontent.com/oficinaRHD/biblioteca-contenido/main/covers/"
   },
   "categories": [
-    { "id": "ahorro", "name": "Ahorro y presupuesto" }
+    {
+      "id": "ahorro",
+      "name": "Ahorro y presupuesto"
+    }
   ],
   "books": [
     {
       "id": "bk_9001",
       "title": "[PRUEBA APK] PDF de prueba",
       "subtitle": "Para validar la descarga nativa",
-      "authors": ["Prueba"],
-      "categoryIds": ["ahorro"],
-      "tags": ["prueba"],
+      "authors": [
+        "Prueba"
+      ],
+      "categoryIds": [
+        "ahorro"
+      ],
+      "tags": [
+        "prueba"
+      ],
       "language": "es",
       "level": "beginner",
       "year": 2026,
       "description": "Archivo de prueba propio para validar la descarga en el APK. No es contenido real.",
       "license": "other",
       "source": "Archivo de prueba propio (Release test-v1)",
-      "cover": { "path": "bk_9001.webp" },
-      "file": { "path": "pdftest.pdf", "sizeBytes": 27413, "sha256": "24bff0512ce3034a0e900f2480dca2ae8dfdb987f40d58dd4e093b6cb4534c87" },
+      "cover": {
+        "path": "bk_9001.webp"
+      },
+      "file": {
+        "path": "pdftest.pdf",
+        "sizeBytes": 27413,
+        "sha256": "24bff0512ce3034a0e900f2480dca2ae8dfdb987f40d58dd4e093b6cb4534c87"
+      },
       "addedAt": "2026-11-03",
       "featured": true
+    },
+    {
+      "id": "bk_9002",
+      "title": "[PRUEBA APK] Redes neuronales",
+      "subtitle": null,
+      "authors": [
+        "Autor de prueba"
+      ],
+      "categoryIds": [
+        "ahorro"
+      ],
+      "tags": [
+        "prueba"
+      ],
+      "language": "es",
+      "level": "beginner",
+      "year": 2026,
+      "description": "PDF de unos 9 MB para probar el lector.",
+      "license": "other",
+      "source": "Archivo de prueba del desarrollador",
+      "cover": {
+        "path": "bk_9001.webp"
+      },
+      "file": {
+        "path": "redesneuro.pdf",
+        "sizeBytes": 0,
+        "sha256": ""
+      },
+      "addedAt": "2026-11-04",
+      "featured": false
     }
   ]
 }
