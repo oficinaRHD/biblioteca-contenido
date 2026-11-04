@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "catalogVersion": 2,
+  "catalogVersion": 3,
   "updatedAt": "2026-11-03T11:00:00Z",
   "bases": {
     "files": "https://github.com/oficinaRHD/biblioteca-contenido/releases/download/test-v1/",
@@ -67,8 +67,7 @@
       },
       "file": {
         "path": "redesneuro.pdf",
-        "sizeBytes": 0,
-        "sha256": ""
+        "sizeBytes": 9894362
       },
       "addedAt": "2026-11-04",
       "featured": false
